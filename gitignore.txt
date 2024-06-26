@@ -1,0 +1,14 @@
+# ignore all directories with the name .ipynb_checkpoints and .DS_Store
+.ipynb_checkpoints/
+__pycache__/
+
+#ignore all files in the directory pics and xlsx
+/QBC/QBC/Results/pics/*
+/QBC/QBC/Results/xlsx/*
+
+# matches any files which are .tsv
+*.tsv
+*.DS_Store
+
+#doesn't ignore .placeholder
+!*.placeholder
